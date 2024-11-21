@@ -1,0 +1,41 @@
+name: youtube_clone_new
+description: "A new Flutter project."
+
+# O projeto não será publicado acidentalmente no pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1  # Atualização para a versão mais recente do google_fonts
+  http: ^1.2.2
+  logger: ^2.5.0  # Atualização para a versão mais recente do logger
+  youtube_player_flutter: ^9.1.1  # Atualização para a versão mais recente do youtube_player_flutter
+  cupertino_icons: ^1.0.8
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0  # Atualização para a versão mais recente do flutter_lints
+
+flutter:
+  uses-material-design: true
+
+  # Assets utilizados no projeto
+  assets:
+    - assets/youtube.png
+    - assets/perfil.jpg
+
+  # Não é necessário configurar fontes personalizadas, pois estamos usando o pacote google_fonts
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: assets/fonts/Roboto-Regular.ttf
+  #       - asset: assets/fonts/Roboto-Bold.ttf
+  #         weight: 700
