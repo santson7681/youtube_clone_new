@@ -1,4 +1,4 @@
-# youtube_clone_new
+# youtube_clone
 
 A new Flutter project.
 
