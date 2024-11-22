@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'model/Video.dart';
 
 const URL_BASE = "https://www.googleapis.com/youtube/v3/";
-const CHAVE_YOUTUBE_API = "AIzaSyDWE89CsostsHn-qq74zu4wWq26YrxQa-0"; // Certifique-se de usar sua chave de API válida.
+const CHAVE_YOUTUBE_API = "**********************"; // Certifique-se de usar sua chave de API válida.
 const ID_CANAL = "UCVHFbqXqoYvEWM1Ddxl0QDg";
 
 class Api {
